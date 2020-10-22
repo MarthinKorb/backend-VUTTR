@@ -1,12 +1,11 @@
 import { Request, Response } from 'express';
+import { getRepository } from 'typeorm';
 
 import Tool from '../models/Tool';
-import { getRepository } from 'typeorm';
 
 import * as Yup from 'yup';
 
 export default {
-
     async index(request: Request, response:Response) {
         
         const toolsRepository = getRepository(Tool);      
@@ -17,15 +16,16 @@ export default {
     },
 
     async create(request: Request, response: Response) {
-        const data = request.body;
+        const { title, link, description } = request.body;
         
-        const toolsRepository = getRepository(Tool);             
+        const toolsRepository = getRepository(Tool);  
+
+        const data = { title, link, description };
 
         const schema = Yup.object().shape({
             title: Yup.string().required(),
             link: Yup.string().required().max(300),
             description: Yup.string().required(),
-            tags: Yup.string().required(),
         });
 
         await schema.validate(data, { 
@@ -59,7 +59,7 @@ export default {
     async edit(request: Request, response: Response): Promise<any> {
         const { id } = request.params;
 
-        const { title, link, description, tags } = request.body;
+        const { title, link, description  } = request.body;
 
         const toolsRepository = getRepository(Tool); 
 
@@ -73,10 +73,9 @@ export default {
             title: Yup.string().required(),
             link: Yup.string().required().max(300),
             description: Yup.string().required(),
-            tags: Yup.string().required(),
         });
 
-        await schema.validate({ title, link, description, tags }, { 
+        await schema.validate({ title, link, description }, { 
             abortEarly: false
         });
 
@@ -86,15 +85,8 @@ export default {
             title,
             link,
             description,
-            tags
         });
 
-        return response.status(200).json({id, title, link, description, tags});
+        return response.status(200).json({id, title, link, description });
     },
-
-    async find(request: Request, response: Response): Promise<void> {
-        const q = request.query.q;
-
-        console.log(q);
-    }
 };
