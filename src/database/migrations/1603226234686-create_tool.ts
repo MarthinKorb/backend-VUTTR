@@ -25,14 +25,9 @@ export class createTool1603226234686 implements MigrationInterface {
                   {
                     name: 'description',
                     type: 'varchar',
-                  },       
-                  {
-                    name: 'tags',
-                    type: 'varchar',
-                  },          
+                  }         
             ],
         }));
-
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {

@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn, OneToMany, JoinColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('tools')
 export default class Tool {
@@ -13,8 +13,4 @@ export default class Tool {
 
     @Column()
     description: string;
-
-    @Column()
-    tags: string;
-    
 }
