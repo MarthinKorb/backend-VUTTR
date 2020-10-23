@@ -1,10 +1,14 @@
-# VUTTR
+## VUTTR
 
 **Very Usefull Tools to Remember**
 
 Aplicação que armazena suas ferramentas favoritas
 
-### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
+----------------------------------
+
+## Tecnologias Utilizadas
+
+##### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
 
 ----------------------------------------------------
 
@@ -31,7 +35,7 @@ _________________________________________________________________
 
 ***Swagger***
 
-Para acessar a documentação da API, acesse *http://localhost:3333/api-docs/*
+Para acessar a documentação da API, com o servidor rodando, acesse *http://localhost:3333/api-docs/*
 
 <p align="center" border-radius="4px">
     <img src=".github/exp1.png" width=800">
