@@ -38,7 +38,7 @@ _________________________________________________________________
 Nessa aplicação, é usado um container no docker para o serviço de banco de dados. 
 Para informações sobre configuração do Postgres no Docker, acesse *https://hub.docker.com/_/postgres* ou ***https://typeorm.io/#/***
 
-***Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados
+***Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados***
 
 ## ***Swagger***
 
