@@ -6,13 +6,13 @@ Aplicação que armazena suas ferramentas favoritas
 
 ----------------------------------
 
-## Tecnologias Utilizadas
+## ***Tecnologias Utilizadas***
 
 ##### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
 
 ----------------------------------------------------
 
-## Instalação | Execução
+## ***Instalação | Execução***
 
 Clone esse repositório rodando o comando:
 
@@ -33,7 +33,7 @@ No console, deverá aparecer a mensagem: *Server running on port 3333*
 
 _________________________________________________________________
 
-***Swagger***
+## ***Swagger***
 
 Para acessar a documentação da API, com o servidor rodando, acesse *http://localhost:3333/api-docs/*
 
