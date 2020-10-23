@@ -33,6 +33,14 @@ _________________________________________________________________
 
 Para acessar a documentação da API, acesse *http://localhost:3333/api-docs/*
 
+<p align="center" border-radius="4px">
+    <img src=".github/exp1.png" width=800">
+    <img src=".github/exp2.png" width=800">
+    <img src=".github/exp3.png" width=800">
+    <img src=".github/exp4.png" width=800">
+    <img src=".github/exp5.png" width=800">
+</p>
+
 _____________________________________________________
 
 **Feito!** ✔
