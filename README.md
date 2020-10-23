@@ -1,4 +1,4 @@
-## VUTTR -  ***Very Usefull Tools to Remember***
+## VUTTR -  ***Very Usefull Tools to Remember*** 🛠
 
 
 Aplicação que armazena suas ferramentas favoritas. Nela, você pode criar, deletar, editar e listar todas as suas ferramentas favoritas.
