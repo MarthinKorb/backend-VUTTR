@@ -1,10 +1,14 @@
-# VUTTR
+## VUTTR
 
 **Very Usefull Tools to Remember**
 
 Aplicação que armazena suas ferramentas favoritas
 
-### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
+----------------------------------
+
+## Tecnologias Utilizadas
+
+##### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
 
 ----------------------------------------------------
 
