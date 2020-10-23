@@ -44,7 +44,7 @@ Após a configuração do ***banco de dados***, rode o comando:
     
     yarn typeorm migration:run    
     
-Esse comando criará as nossas tabelas no banco.  
+Esse comando criará as tabelas no banco.  
 
 -------------------------------------------------
 
