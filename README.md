@@ -35,7 +35,7 @@ _________________________________________________________________
 
 ***Swagger***
 
-Para acessar a documentação da API, acesse *http://localhost:3333/api-docs/*
+Para acessar a documentação da API, com o servidor rodando, acesse *http://localhost:3333/api-docs/*
 
 _____________________________________________________
 
