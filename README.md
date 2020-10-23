@@ -32,6 +32,14 @@ No console, deverá aparecer a mensagem: *Server running on port 3333*
 
 _________________________________________________________________
 
+
+## Banco de Dados Postgres
+
+Nessa aplicação, é usado um container no docker para o serviço de banco de dados. 
+Para informações sobre configuração do Postgres no Docker, acesse *https://hub.docker.com/_/postgres* ou ***https://typeorm.io/#/***
+
+***Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados
+
 ## ***Swagger***
 
 Para acessar a documentação da API, com o servidor rodando, acesse *http://localhost:3333/api-docs/*
