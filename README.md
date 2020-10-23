@@ -40,6 +40,14 @@ Para informações sobre configuração do Postgres no Docker, acesse *https://h
 
 ***Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados***
 
+Após a configuração do ***banco de dados***, rode o comando: 
+    
+    yarn typeorm migration:run    
+    
+Esse comando criará as nossas tabelas no banco.  
+
+-------------------------------------------------
+
 ## ***Swagger***
 
 Para acessar a documentação da API, com o servidor rodando, acesse *http://localhost:3333/api-docs/*
